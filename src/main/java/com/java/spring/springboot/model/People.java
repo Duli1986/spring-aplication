@@ -21,7 +21,7 @@ public class People {
     @Column(name = "second_name")
     private String secondName;
 
-    @Column(name = "sex")
+    @Column(name = "uni_sex")
     private String sex;
 
     @Column(name = "age")
@@ -34,7 +34,7 @@ public class People {
 
     }
 
-    public People(String firstName, String secondName, String sex, int age, String email) {
+    public People (String firstName, String secondName, String sex, int age, String email) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.sex = sex;
